@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace BlackJack.DTO
 {
-    public class PlayerModel
+    public class GameHistoryModel
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public int CurrentCardValue { get; set; }
-        public int Cash { get; set; }
+        public string Winner { get; set; }
+
     }
 }

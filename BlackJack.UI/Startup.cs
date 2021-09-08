@@ -25,6 +25,7 @@ namespace BlackJack.UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<GameManager>();
+            
             services.AddControllersWithViews();
         }
 
